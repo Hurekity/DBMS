@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SELECT">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TransactSQL">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="AXLAILA\SQLEXPRESS:AXLAILA\lxst">
-          <Created>2024-03-16T16:58:48.7539213+09:00</Created>
+          <Created>2024-03-28T17:44:16.5795406+09:00</Created>
           <Type>SQL</Type>
           <Server>AXLAILA\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>PD_321</InitialDB>
+          <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,77 +19,83 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="HW1SQLQuery1 - Students direction.sql">
+        <FileNode Name="SQLQuery1 - INSERT INTO Schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery1 - Students direction.sql</FullPath>
+          <FullPath>SQLQuery1 - INSERT INTO Schedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="HW1SQLQuery2 - Teachers disciplines.sql">
+        <FileNode Name="SQLQuery10 - INSERT into celebrations.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery2 - Teachers disciplines.sql</FullPath>
+          <FullPath>SQLQuery10 - INSERT into celebrations.sql</FullPath>
         </FileNode>
-        <FileNode Name="HW1SQLQuery3 - Teachers for Discipline.sql">
+        <FileNode Name="SQLQuery11 - FUNCTION is_celebration.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery3 - Teachers for Discipline.sql</FullPath>
+          <FullPath>SQLQuery11 - FUNCTION is_celebration.sql</FullPath>
         </FileNode>
-        <FileNode Name="HW1SQLQuery4 - Disciplines Directions.sql">
+        <FileNode Name="SQLQuery12 - CREATE Trigger.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery4 - Disciplines Directions.sql</FullPath>
+          <FullPath>SQLQuery12 - CREATE Trigger.sql</FullPath>
         </FileNode>
-        <FileNode Name="HW1SQLQuery5 - COUNT Students on directions .sql">
+        <FileNode Name="SQLQuery13 - Filler.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery5 - COUNT Students on directions .sql</FullPath>
+          <FullPath>SQLQuery13 - Filler.sql</FullPath>
         </FileNode>
-        <FileNode Name="HW1SQLQuery6 - Groups size.sql">
+        <FileNode Name="SQLQuery2 - Fill schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery6 - Groups size.sql</FullPath>
+          <FullPath>SQLQuery2 - Fill schedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="HW1SQLQuery7 - COUNT Teachers on Disciplines.sql">
+        <FileNode Name="SQLQuery3 - ERASE Schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>HW1SQLQuery7 - COUNT Teachers on Disciplines.sql</FullPath>
+          <FullPath>SQLQuery3 - ERASE Schedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1 - SELECT Teachers.sql">
+        <FileNode Name="SQLQuery4 - Creare Proc.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - SELECT Teachers.sql</FullPath>
+          <FullPath>SQLQuery4 - Creare Proc.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - SELECT Students.sql">
+        <FileNode Name="SQLQuery5 - SELECT DISC FOR PROC.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - SELECT Students.sql</FullPath>
+          <FullPath>SQLQuery5 - SELECT DISC FOR PROC.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3 - LIKE.sql">
+        <FileNode Name="SQLQuery6 - ADD Stationar to schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3 - LIKE.sql</FullPath>
+          <FullPath>SQLQuery6 - ADD Stationar to schedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4 - SELECT Celebration.sql">
+        <FileNode Name="SQLQuery7 -ADDED.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4 - SELECT Celebration.sql</FullPath>
+          <FullPath>SQLQuery7 -ADDED.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery5 - SELECT Complete disciplines.sql">
+        <FileNode Name="SQLQuery8 - Days.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery5 - SELECT Complete disciplines.sql</FullPath>
+          <FullPath>SQLQuery8 - Days.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery9 - SECOND task.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery9 - SECOND task.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

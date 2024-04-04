@@ -43,6 +43,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery4 - ALTER Teachers.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQUERY5 - ALTER Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AXLAILA\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>AXLAILA\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQUERY5 - ALTER Schedule.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
